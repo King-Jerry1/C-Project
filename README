@@ -1,0 +1,34 @@
+The "%d" and "\n" are format specifiers and escape sequences used in C programming, particularly within the printf function.
+
+%d
+%d is a format specifier used in the printf function to indicate that you want to print a signed decimal (integer) value.
+
+When you use %d, the corresponding variable's value is inserted at that point in the output string. For example:
+
+c
+Copy code
+int number = 42;
+printf("The number is %d\n", number);
+This code will output:
+
+csharp
+Copy code
+The number is 42
+\n
+\n is an escape sequence that represents a newline character.
+
+When \n is included in a string, it tells the program to move the cursor to the beginning of the next line when printing the string. For example:
+
+c
+Copy code
+printf("Hello, World!\n");
+printf("This is on a new line.");
+This code will output:
+
+csharp
+Copy code
+Hello, World!
+This is on a new line.
+Notice how the second printf statement starts on a new line due to the \n in the first printf.
+
+In summary, %d is used to format and print integer values, while \n is used to add a newline in the output.
